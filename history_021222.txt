@@ -1,0 +1,16 @@
+   0 mkdir -p /home/user/start/
+   1 printf "Start" > /home/user/start/1.txt
+   2 nano /home/user/start/1.txt
+   3 echo 'date' >> /home/user/start/1.txt
+   4 nano /home/user/start/1.txt
+   5 mkdir /opt/task/
+   6 cat /home/user/start/1.txt > /opt/task/start.txt
+   7 nano /opt/task/start.txt
+   8 find | grep / | tail -4
+   9 echo "./.wine/drive_c/Program Files/Windows NT/Accessories
+  10 ./.wine/drive_c/Program Files/Windows NT/Accessories/wordpad.exe
+  11 ./.wine/user.reg
+  12 ./.ash_history" >> /opt/task/start.txt
+  13 nano /opt/task/start.txt
+  14 history
+  15 history >> history_021222.txt
